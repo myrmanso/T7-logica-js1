@@ -1,61 +1,42 @@
-// Crie uma função com dois argumentos, que retorna a subtração deles.
+// Declare uma variável chamada "meunumero", sem valor.
+var meunumero;
+
+// Após declarada, atribua o seu número da sorte à variavel "meunumero".
+ meunumero = 13; 
+
+// Declare uma nova variável chamada "soma", e adicione a adição de dois números.
+ var soma = 2 + 3;
+
+// Atribua à variável "soma" todo o valor dela, somando 1, usando o operador de soma abreviado.
+ soma ++;
+
+// Atribua à variável "soma" todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
+soma = soma * 3;
+soma *= 3;
+
+// Qual é o valor da variável "soma" até aqui?
 ?
 
-// Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando "5" ao resultado retornado da função.
-?
+// Declare uma variável chamada "turma7", atribuindo à ela o valor booleano que representa "verdadeiro".
+var turma7 = true;
 
-// Qual o valor atualizado dessa variável?
-?
+// Declare uma variável chamada "comida" que recebe um array com strings referentes ao que você comeu hoje.
+var comida = ['arroz', 'salada', 'carne de jaca']
+// Digite a instrução que imprime o valor do último item da lista.
+comida[3]
 
-// Declare uma nova variável, sem valor.
-?
+// Digite o código que verifica se a variável "soma' é igual a variável "meunumeror" (testando também o tipo).
+ soma === meunumero
 
-/*
-Crie uma função que adicione um valor à variável criada acima, e retorne a seguinte mensagem:
-    "O novo valor da minha variável agora é VALOR."
-    (onde VALOR é o novo valor da variável).
-*/
-function nome (x){
-    var string = "O novo valor da minha variável agora é "
-    return string + x
+// Digite o código que verifica se a variável "meunumero" é menor ou igual à variável "soma".
+meunumero <= soma
+
+// Crie uma função chamada "divisao" que receba como parâmetro dois números, e retorne o resultado da divisão entre eles.
+function divisao(numero1,numero2){
+    var resultado = numero1 / numero2;
+    return resultado;
 }
 
-// Invoque a função criada acima.
-?
+// Invoque a função criada acima, passando os parâmetros 30 e 2.
+divisao(30,2)
 
-// Qual o retorno da função? (Use comentários de bloco).
-?
-
-/*
-Crie uma função com as seguintes características:
-1. A função deve receber 3 argumentos;
-2. Se qualquer um dos três argumentos não estiverem preenchidos, a função deve retornar a string:
-    Preencha todos os valores corretamente!
-3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando "2" ao resultado da multiplicação.
-*/
-?
-
-// Invoque a função criada acima, passando só dois números como argumento.
-?
-
-// Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-?
-
-// Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
-?
-
-// Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-?
-
-/*
-Crie uma função com as seguintes características:
-1. A função deve receber 3 argumentos.
-2. Se somente um argumento for passado, retorne o valor do argumento.
-3. Se dois argumentos forem passados, retorne a soma dos dois argumentos.
-4. Se todos os argumentos forem passados, retorne a soma do primeiro com o segundo, e o resultado, dividido pelo terceiro.
-5. Se nenhum argumento for passado, retorne o valor booleano "false".
-6. E ainda, se nenhuma das condições acima forem atendidas, retorne "null".
-*/
-?
-
-// Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
