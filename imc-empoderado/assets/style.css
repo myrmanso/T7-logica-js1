@@ -1,0 +1,134 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Varela', sans-serif;
+    font-size: 20px;
+    width: 100vw;
+}
+
+/* inicio do main */
+
+.cabecalho{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: purple;
+}
+
+.container{
+    display: flex;
+}
+
+.col{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.66rem;
+    margin: 0.66rem;
+    border: 0.06rem solid #cccccc;
+    border-radius: 0.33rem;
+}
+
+th{
+    background: gray;
+    color: black;
+}
+td, th{
+    padding: 0.66rem 1.06rem;
+    text-align: center;
+}
+tr{
+    font-size: 0.9rem;    
+}
+
+
+.linha1{padding: 0.66rem; background: rgb(132, 132, 211)}
+.linha2{padding: 0.66rem; background: rgb(124, 187, 124)}
+.linha3{padding: 0.66rem; background: rgb(221, 221, 139)}
+.linha4{padding: 0.66rem; background: rgb(214, 131, 131)}
+.linha5{padding: 0.66rem; background: rgb(206, 122, 206)}
+
+
+label, input, p{
+    margin: 0.53rem 0;
+}
+
+input{
+    border: solid 0.06rem #cccccc;
+    width: 100%;
+    padding: 0.33rem;
+}
+
+button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    background-color: purple;
+    width: 100%;
+    color: white;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+#lugarGif img{
+    width: 300px;
+    min-width: 300px;
+}
+
+/* final do main */
+
+/* inicio do estilo footer */
+.rodape {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(172, 117, 172);
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding: 5px 0;
+}
+
+
+.rodape p {
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* final do estilo footer */
+
+@media (max-width: 768px){
+    .cabecalho{
+        font-size: 1rem;
+    }
+
+    .conteudo{
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .col{
+        width: 80%;
+        align-items: center;
+    }
+    .rodape{
+        position: unset;
+    }
+}
+
+
+

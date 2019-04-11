@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela" rel="stylesheet">
+    <script src="./assets/script.js"></script>
+    <title>IMC ✨</title>
+</head>
+<body>
+    <!-- inicio cabecalho -->
+    <header class="cabecalho">
+        <h1>
+            IMC empoderado ✨
+        </h1>
+    </header>
+    <!-- inicio main -->
+    <main class="conteudo">
+        <div class="container">
+            <div id="table" class="col">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>IMC</th>
+                            <th>Classificação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="linha1">
+                            <td>Abaixo de 18</td>
+                            <td>Uma Deusa! ✨</td>
+                        </tr>
+                        <tr class="linha2">
+                            <td>Entre 18,5 - 24,9</td>
+                            <td>Uma feiticeira! ✨</td>
+                        </tr>
+                        <tr class="linha3">
+                            <td>Entre 25 - 29,9</td>
+                            <td>Uma louca! ✨</td>
+                        </tr>
+                        <tr class="linha4">
+                            <td>Entre 30 - 40</td>
+                            <td>Ela é demais! ✨</td>
+                        </tr>
+                        <tr class="linha5">
+                            <td>Acima de 40</td>
+                            <td>Meu Deus, ela é demais! ✨</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div><!--/col-->
+            <div id="calc" class="col">
+                <label for="">Peso (Kg)</label>
+                <input id="peso" type="text">
+                <label for="">Altura</label>
+                <input id="altura" type="text">
+                <button onclick="calcularIMC()" >Calcular</button>
+            </div><!--/col-->
+            <div class="col">
+                <p>Seu imc é:</p>
+                <p id="resposta"></p>
+                <div id="lugarGif"></div>
+            </div><!--/col-->
+        </div><!--/container-->
+    </main>
+    <!-- inicio do footer -->
+    <footer class=rodape>
+        <p>&copy;2019 - Mayara Cristina Manso - {reprograma}</p>
+    </footer>
+</body>
+</html>
