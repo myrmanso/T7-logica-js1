@@ -1,0 +1,3 @@
+ if (isNaN(escolhaUsuario) || escolhaUsuario == "" || escolhaUsuario == " ") {
+                alert('Por favor insira papel, tesoura, pedra, largato ou spock.');
+            } else {
