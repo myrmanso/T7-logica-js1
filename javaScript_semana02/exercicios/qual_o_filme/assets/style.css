@@ -1,0 +1,47 @@
+body{
+    box-sizing: border-box;
+    background-image: url("./img/cinema.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'BioRhyme', serif;
+    text-transform: bold;
+    font-size:30px;
+}
+
+main{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+h1{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 60px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+}
+
+button{
+    padding: 20px 30px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+img{
+    width: 500px;
+    margin: 15px;
+}
